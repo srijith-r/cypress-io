@@ -1,0 +1,16 @@
+{
+  "name": "rocketlane-assignment",
+  "version": "1.0.0",
+  "description": "Write functional tests using Cypress covering the following use cases in \"https://the-internet.herokuapp.com\" website\r 1. User can login only using right username and password (Basic Auth)\r 2. Welcome message rendered on button click (Dynamically Loaded Page Elements)\r 3. Input component can accept only numbers (Inputs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.7.0"
+  },
+  "devDependencies": {}
+}
