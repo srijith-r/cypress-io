@@ -19,6 +19,8 @@ Write functional tests using Cypress covering the following use cases in "https:
 >5) Valid credentials provided (Status 200) username = "admin", password = "admin"
 >6) Verify if authorized page works fine.
 
+![alt text](screenshots/1_basic-auth.jpg)
+
 ## 2.Dynamically Loaded Page Elements
 
 Verify if "Hello World!" is dynamically loaded on the webpage
@@ -34,6 +36,8 @@ Verify if "Hello World!" is dynamically loaded on the webpage
 >       - Clicking on start button
 >       - Verifying that dynamically rendered element is visible after click
 
+![alt text](screenshots/2_dynamic-loading.jpg)
+
 ## 3. Inputs
 Verify if the input component accepts only numbers 
 
@@ -43,6 +47,8 @@ Verify if the input component accepts only numbers
 >	    - No numbers entered = Nothing is accepted
 >	    - Only numbers entered = All numbers accepted
 >	    - Combination of numbers, characters & spl. characters = Only numbers accepted
+
+![alt text](screenshots/3_inputs.jpg)
 
 # SETUP:
 1. Download Node.js from https://nodejs.org/en/download/
