@@ -53,8 +53,9 @@ Verify if the input component accepts only numbers
 # SETUP:
 1. Download Node.js from https://nodejs.org/en/download/
 
-2. Clone the repository 
+2. Clone the repository.
 3. In Terminal,
 >    - npm init -y
 >    - npm install cypress
 >    - npx cypress open
+4. Run the desired test.
