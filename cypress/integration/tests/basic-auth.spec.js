@@ -55,7 +55,7 @@ describe("Basic Auth", () => {
 
 	})
 
-	// -- Verifying authorized page contents for --
+	// -- Verifying authorized page contents  --
 	context("Checking Authorized Page", () => {
 
 		it("Testing if the logged in page works fine", () => {
