@@ -25,6 +25,8 @@ describe('Inputs', function () {
 
             cy.log("Input: rocketlane");
             cy.get('input').type('rocketlane')
+            cy.log("Output: Empty");
+            cy.get('input').should('have.value','')
         })
 
         // -- Only numbers entered in the input field --
@@ -32,6 +34,8 @@ describe('Inputs', function () {
 
             cy.log("Input: 54321");
             cy.get('input').type(54321)
+            cy.log("Output: 54321");
+            cy.get('input').should('have.value',54321)
         })
 
         // -- Combination of numbers & characters entered in the input field --
@@ -39,18 +43,24 @@ describe('Inputs', function () {
 
             cy.log("Input: 123rocketl@ne");
             cy.get('input').type(123+'rocketl@ne')
+            cy.log("Output: 123");
+            cy.get('input').should('have.value',123)
         })
 
         it('4. Combination of numbers and characters in input',()=>{
 
             cy.log("Input: la456");
             cy.get('input').type('l'+'a'+456)
+            cy.log("Output: 456");
+            cy.get('input').should('have.value',456)
         })
 
         it('5. Combination of numbers and characters in input',()=>{
 
             cy.log("Input: ,5r4o k3tlane");
             cy.get('input').type(','+5+'r'+4+'o'+' '+'k'+3+'tlane')
+            cy.log("Output: 543");
+            cy.get('input').should('have.value',543)
         })
 
     })
